@@ -1,4 +1,4 @@
-# test-repo
+ï»¿# test-repo
 
 a tiny Python arithmetic example with standalone add and subtract scripts.
 
@@ -12,77 +12,74 @@ a tiny Python arithmetic example with standalone add and subtract scripts.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Authors and Contributors](#authors-and-contributors)
 
 ---
 
 ## About the Project
 
-This repository contains a minimal Python project with two single-purpose scripts for arithmetic operations. It demonstrates running simple Python scripts that print the result of an addition and a subtraction.
+This repository contains a minimal Python project with two standalone scripts that perform basic arithmetic operations. The code demonstrates a simple approach to defining numeric variables and printing computed results directly from the command line.
 
-The project is intended as a small example for basic scripting and quick local execution. It solves the need for a reproducible minimal Python codebase that can be run instantly.
+The project solves the need for a lightweight, easy-to-run example of Python scripting for basic math operations. It provides a clear starting point for testing a local Python setup or understanding how small single-purpose scripts are structured.
 
 ---
 
 ## Key Features
 
-**Addition Script:** `add.py` adds two hardcoded numbers and prints the sum.
+**Addition Script:** `add.py` adds two predefined numbers and prints the result.
 
-**Subtraction Script:** `subtract.py` subtracts one hardcoded number from another and prints the result.
+**Subtraction Script:** `subtract.py` subtracts one predefined number from another and prints the result.
 
 ---
 
 ## Tech Stack
 
-| Layer    | Technology |
-|----------|------------|
-| Language | Python     |
+| Layer | Technology |
+|-------|------------|
+| Language | Python |
 
 ---
 
 ## Installation
 
-### Prerequisites
-
-- Python 3.x installed
-
 ### Steps
 
-1. Clone the repository:
+1. Clone the repository.
    ```bash
    git clone https://github.com/bprakash-2801/test-repo.git
+   ```
+
+2. Move into the project directory.
+   ```bash
    cd test-repo
-   ```
-
-2. Run the addition script:
-   ```bash
-   python add.py
-   ```
-
-3. Run the subtraction script:
-   ```bash
-   python subtract.py
    ```
 
 ---
 
 ## Usage
 
-### Run scripts
+### Run the addition script
 
-- `python add.py` prints the sum of two numbers.
-- `python subtract.py` prints the difference between two numbers.
+```bash
+python add.py
+```
+
+This command prints the sum of the two numbers defined in `add.py`.
+
+### Run the subtraction script
+
+```bash
+python subtract.py
+```
+
+This command prints the difference between the two numbers defined in `subtract.py`.
 
 ---
 
 ## Project Structure
 
-- `add.py` — addition script that prints `a + b`.
-- `subtract.py` — subtraction script that prints `b - a`.
-- `README.md` — project documentation.
-
----
-
-## Authors and Contributors
-
-**Your Name** — [@yourhandle](https://github.com/yourhandle)
+```text
+test-repo/
+|-- add.py        # Prints the sum of two predefined numbers
+|-- subtract.py   # Prints the difference between two predefined numbers
+`-- README.md     # Project documentation
+```
